@@ -12,4 +12,5 @@ This is an example web app running on Tomcat inside a Docker container.
 
 ## Run Docker Container
 ```bash
+./docker-run.sh 
 ```
