@@ -16,4 +16,6 @@ dist
 /bin
 /.target
 /.cache
-
+my-app-1.0/
+*.jar
+*.zip
