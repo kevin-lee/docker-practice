@@ -1,0 +1,12 @@
+version: '2'
+services:
+  my-service:
+    build: service
+    ports:
+     - "9000:9000"
+  my-client:
+    build: client
+    volumes:
+     - ./my-test:/my-test 
+    depends_on:
+     - my-service

@@ -1,0 +1,15 @@
+.sbtserver/
+logs
+target
+bin/
+libexec/
+project/project/
+.sbtserver*
+.classpath
+.project
+settings
+
+.idea/
+.idea_modules
+
+RUNNING_PID
